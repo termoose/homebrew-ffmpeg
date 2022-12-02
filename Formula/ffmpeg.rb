@@ -5,7 +5,7 @@ class Ffmpeg < Formula
   version "5.1.2-with-options" # to distinguish from homebrew-core's ffmpeg
   sha256 "619e706d662c8420859832ddc259cd4d4096a48a2ce1eefd052db9e440eef3dc"
   license "GPL-2.0-or-later"
-  head "https://github.com/FFmpeg/FFmpeg.git", branch: "master"
+  head "https://github.com/FFmpeg/FFmpeg.git", branch: "release/4.3"
 
   option "with-chromaprint", "Enable the Chromaprint audio fingerprinting library"
   option "with-decklink", "Enable DeckLink support"
